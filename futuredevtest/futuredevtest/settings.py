@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'futuredevtest.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'dcg4261gbiromf',
+            'USER': 'vkrsloryxylojn',
+            'PASSWORD': '4f9c408f7d51d2c1c8d8b0c099aee466dad3735c67b929a2cbbef59a71b97461',
+            'HOST': 'ec2-184-73-249-9.compute-1.amazonaws.com',
+            'PORT': '5432',
     }
 }
 
