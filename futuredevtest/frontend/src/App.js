@@ -25,6 +25,6 @@ export default function App(props){
   }
 
     return (
-      <div>{console.log(componentDidMount())}</div>
+      <div>{componentDidMount()}</div>
     );
 }
